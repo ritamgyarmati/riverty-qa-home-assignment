@@ -1,0 +1,11 @@
+name: Run unit and integration tests
+
+on:
+    push: 
+        branches:
+            - '**'
+
+jobs:
+
+       
+        

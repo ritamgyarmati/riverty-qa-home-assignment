@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+      target: final
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 5135:8080   #App uses port 5135 for HTTP
