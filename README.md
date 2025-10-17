@@ -12,6 +12,9 @@ There are two ways to run the application.
 4. To run the application without Docker open CardValidation.Web and run command: dotnet run
 
 # Trigger unit tests with coverage
+1. In case needed, please install code coverage tool:
+	a. dotnet add CardValidation.UnitTests package coverlet.collector
+	b. dotnet build CardValidation.UnitTests
 1. In terminal in the project root run: dotnet test CardValidation.UnitTests --collect:"XPlat Code Coverage"
 2. This will run the unit tests and create coverage report under CardValidation.UnitTests/TestResults
 
